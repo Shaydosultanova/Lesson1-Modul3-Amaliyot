@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+header{
+    width: 1440px;
+    height: 140px;
+}
+
+.bosh{
+    display: flex;
+    justify-content:space-around;
+    margin: 45px 0px 48px;
+    padding-bottom: 48px;
+    border-bottom: 2px solid hsla(0, 5%, 87%, 1);
+}
+
+.lang{
+    display: flex;
+    color: hsla(13, 88%, 50%, 1);
+    gap: 14.83px;
+}
+
+.ozb{
+    color: hsla(0, 0%, 26%, 1);
+    font-size: 36px;
+}
+
+.oyna{
+    width: 650px;
+    height: 786px;
+    margin-left: 395px;
+}
+
+.container{
+    max-width: 650px;
+    margin: 0 auto;
+    border: 1px solid hsla(0, 5%, 87%, 1);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.sahifa{
+    display: flex;
+    justify-content: space-evenly;
+    color: hsla(13, 88%, 50%, 1);
+    margin-top: 66px;
+    margin-bottom: 127px;
+}
+
+h1{
+    color: hsla(241, 75%, 21%, 1);
+    margin-bottom: 79px;
+    font-size: 48px;
+}
+
+.oferta{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.oquvchi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 533px;
+    height: 70px;
+    border: 1px solid hsla(0, 0%, 46%, 0.19);
+    border-radius: 20px;
+    font-size: 28px;
+    margin-left: 55px;
+    margin-top: 50px;
+    background-color: hsla(0, 0%, 56%, 0.19);
+    color: hsla(0, 0%, 46%, 1);
+}
+
+.oquvchii{
+    background-color: white;
+    width: 255px;
+    height: 54px;
+    padding-top: 10px;
+    border-radius: 20px;
+    color: hsla(0, 0%, 0%, 1);
+}
+
+label{
+    border: 1px solid hsla(0, 0%, 46%, 0.19);
+    color: hsla(0, 0%, 46%, 0.7);
+}
+
+input{
+    border: transparent;
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 24px;
+    background-color: hsla(0, 0%, 56%, 0.19);
+    padding-left: 51px;
+    border: 1px solid hsla(0, 0%, 46%, 0.19);
+}
+
+
+.qr{
+    margin-top: 18px;
+    font-size: 24px;
+    color: hsla(0, 0%, 0%, 0.64);
+}
+
+button{
+    background-color: hsla(13, 86%, 75%, 1);
+    color: hsla(0, 0%, 100%, 1);
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-size: 24px;
+    margin: 31px 0px 37px 345px;
+}
+
+button:hover{
+    background-color: hsla(13, 88%, 50%, 1);
+    transition: .5s;
+}
